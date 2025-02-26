@@ -1,0 +1,53 @@
+html *
+{
+    font-family: cursive;
+    color: white;
+}
+
+body{
+    display: flex;
+    background-color:rgb(15, 1, 33);
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 150px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+    width: 4900px;
+    
+}
+
+.box21{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.detail{
+    font-size:100px;
+    border: 1px solid white;
+    width: 70%;
+}
+
+.info{
+    font-size:70px;
+ 
+    
+}
+
+
+.pic{
+    height: 800px;
+    width: 800px;
+}
